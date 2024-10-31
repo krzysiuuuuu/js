@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Nisi hic obcaecati vero harum voluptates suscipit neque minima autem, 
+        nam fugiat nulla deleniti aspernatur, 
+        voluptate exercitationem dolor expedita repellendus odit sit?
+    </p>
+    
+    <script>
+        const number1 = parseInt(prompt('wprowadź pierwszą liczbę:'));
+        const number2 = parseInt(prompt('wprowadź drugą liczbę'));
+
+        if(isNaN(number1)){
+            document.write('Wpisz poprawnie 1 liczbę');
+        }else if(isNaN(number2)){
+            document.write('wpisz poprawnie 2 liczbę');
+        }else {
+            document.write('<p>wynik: '+ (number1 + number2) + '</p>');
+        }
+
+    </script>
+</body>
+</html>
